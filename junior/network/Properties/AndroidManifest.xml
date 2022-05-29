@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="com.companyname.network">
+  <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="28" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- 互联网 -->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <!-- 查看网络状态 -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <!-- 开关网络状态 -->
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <!-- 定位 -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <!-- 查看手机状态 -->
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <!-- 下载时不提示通知栏 -->
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+  <!-- 拍照 -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera.autofocus" />
+  <!-- 录像/录音 -->
+  <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <!-- 震动 -->
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <!-- SD卡 -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <!-- 安装应用请求，Android8.0需要 -->
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+</manifest>
